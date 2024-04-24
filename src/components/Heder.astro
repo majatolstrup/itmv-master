@@ -1,0 +1,39 @@
+    <header>
+    <section class="flex">
+            <div class="ikoner">
+                <a class="instagram" href="https://www.instagram.com/itraadmedverden"> <img src="/svg/insta.svg"
+                    alt="link til itmv instagram"></a>
+                <a class="website" href="https://www.itmv.dk"> <img src="/svg/itmv.svg"
+                    alt="link til itmv hjemmeside"></a>
+            </div>
+        <div class="logo">
+            <img src="/svg/logo.svg" alt="logoen til ITMV">
+        </div>
+        <div class="sytraa"></div>
+    </section>
+</header>
+
+
+
+<style>
+    .flex {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 10px;
+        background-image: url(/public/img/forside.webp);
+    }
+
+    .ikoner {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ikoner img {
+        width: 50px;
+        height: 55px;
+    }
+
+    .logo {
+        margin: auto;
+    }
+</style>
